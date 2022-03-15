@@ -1,7 +1,7 @@
 #Lionel Lynch
 #lineplotter.py
 #accept slope and intercept as input,
-#then output the X values
+#then output the X values and y values.
 
 
 #get slope and intercept from user via input
