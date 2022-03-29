@@ -1,11 +1,12 @@
-def add(a,b):
-    a = 1
-    b = 2
-    return(add(a,b))
+# ACTIVITY 1
+def sum_of_list(list):
+    sum = 0 # When ever you want to calculate the sum you must intialize the variable
+    for i in list:
+        sum = sum + i
+    return sum
 
-def test(a,b):
-    add
-    result = a*b
-    return result
+# list to pass into the function
+numbers = list(range(1,10))
 
-print(f'Answer: {test}')
+# Call function
+sum_of_list(numbers)

@@ -5,9 +5,13 @@
 
 def map(horiz, vert, const):
     import turtle
+
+    #Turtle attributes
     turtle = turtle.Turtle()
     turtle.fillcolor("red")
     turtle.speed(100)
+
+    #loop
     for i in range(10):
         for j in range(8):
             turtle.goto(25 * i, -25 * j)
@@ -17,4 +21,4 @@ def map(horiz, vert, const):
             turtle.end_fill()
             turtle.penup()
 
-map(-1, 0.5 ,5)
+map(-1, 0.5 ,5) 
