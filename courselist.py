@@ -46,7 +46,7 @@ def remove_course(list):
         get_item_numbered(list)
 
         # Get user input on which course to drop
-        drop_course = int(input('Enter the number of the course you would like to remove. Ex: Entering "1" would remove the first course: '))
+        drop_course = int(input('You have too many coursea. Enter the number of the course you would like to remove. Ex: Entering "1" would remove the first course: '))
         list.pop(drop_course-1)
 
         # loop through the index of the course list, and print the items in it.
