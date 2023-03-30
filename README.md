@@ -4,10 +4,8 @@ This repository contains miscellaneous Python code that I have written for vario
 
 # app.js: 
 A JavaScript file for a web application.
-
 # autopolygonator.py: 
 A Python script for generating polygons automatically.
-
 # basic_list.py: 
 A Python script for basic list manipulation.
 # courselist.py: 
@@ -33,9 +31,10 @@ A Python script for performing mathematical operations.
 # max_min.py: 
 A Python script for finding the maximum and minimum values in a list.
 # monstermap.py: 
-A Python script for generating a monster map.
+Ask for a horizontal multiplier, a vertical multiplier, 
+and a constant from the user (as floats, or real numbers).
 # movie.py: 
-A Python script for managing a movie database.
+Calculate the price of admission for a movie based on user input .
 # oddeven.py: 
 A Python script for determining whether a number is odd or even.
 # pay.py: 
